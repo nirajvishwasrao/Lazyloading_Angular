@@ -1,0 +1,53 @@
+h4{
+    text-align: center;
+    color: rgb(0, 0, 0);
+    
+}
+
+#right{
+    color: green;
+    text-align: center;
+}
+
+#wrong{
+    color: red;
+    text-align: center;
+}
+
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-width: 500px; 
+    margin: 0 auto;
+    border: 2px red solid;
+  }
+  
+  svg {
+    width: 100%; 
+    height: 500;
+    max-width: 500px; 
+    /* border: 2px red solid; */
+  }
+
+
+  .button-container {
+    text-align: center; 
+  }
+  
+  .button-container button {
+    margin: 0 10px;
+  }
+
+
+  .page-button {
+    width: 120px;
+    height: 40px; 
+    margin: 0 10px; 
+    font-size: 16px; 
+  }
+  #sar{
+    background-color: aquamarine;
+  }

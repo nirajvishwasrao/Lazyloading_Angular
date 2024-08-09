@@ -1,0 +1,44 @@
+<p>eng works!</p>
+
+
+<div class="container">
+  <div class="card">
+    <div class="card-body">
+      <router-outlet />
+    </div>
+
+    <ul class="pagination justify-content-center">
+
+      <li class="page-item"><a class="page-link" href="javascript:void(0);" (click)="goprivious()"
+          (click)="gotoPage()">Previous</a></li>
+
+      <li class="page-item"><a class="page-link" href="javascript:void(0);">Save</a></li>
+
+      <li class="page-item"><a class="page-link" href="javascript:void(0);">Share</a></li>
+
+      <li class="page-item"><a class="page-link" href="javascript:void(0);" (click)="gonext()"
+          (click)="gotoPage()">Next</a></li>
+
+    </ul>
+  </div>
+
+  <!--  -->
+
+  <div class="card-columns mt-4">
+    <div class="card bg-success" *ngFor="let item of qset">
+      <div class="card-body text-center">
+        <p class="card-text"></p>
+        <a routerLink="{{item.desc}}" class="btn btn-primary" (click)="currentindex(item.qid)">{{item.qname}}</a>
+      </div>
+    </div>
+  </div>
+
+  <!--  -->
+
+ 
+
+
+
+
+
+</div>

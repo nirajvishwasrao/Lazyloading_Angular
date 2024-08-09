@@ -1,0 +1,14 @@
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 394 364">
+  <g>
+    <rect x=".5" y=".5" width="116" height="88" style="stroke-width: 0px;" [attr.fill]="strokeColor"/>
+    <path d="M116,1v87H1V1h115M117,0H0v89h117V0h0Z" style="fill: #000; stroke-width: 0px;"/>
+  </g>
+  <g>
+    <rect x="247.5" y=".5" width="146" height="92" style="fill: lime; stroke-width: 0px;"/>
+    <path d="M393,1v91h-145V1h145M394,0h-147v93h147V0h0Z" style="fill: #000; stroke-width: 0px;"/>
+  </g>
+  <g>
+    <path d="M139.5,363.5c-20.95,0-38-17.05-38-38s17.05-38,38-38,38,17.05,38,38-17.05,38-38,38Z" style="fill: #b300ff; stroke-width: 0px;"/>
+    <path d="M139.5,288c20.68,0,37.5,16.82,37.5,37.5s-16.82,37.5-37.5,37.5-37.5-16.82-37.5-37.5,16.82-37.5,37.5-37.5M139.5,287c-21.26,0-38.5,17.24-38.5,38.5s17.24,38.5,38.5,38.5,38.5-17.24,38.5-38.5-17.24-38.5-38.5-38.5h0Z" style="fill: #000; stroke-width: 0px;"/>
+  </g>
+</svg>

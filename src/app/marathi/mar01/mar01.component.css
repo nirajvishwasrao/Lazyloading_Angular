@@ -1,0 +1,65 @@
+h1,h2{
+    text-align: center;
+    color: rgb(0, 0, 0);
+}
+
+#right{
+    color: green;
+}
+
+#wrong{
+    color: red;
+}
+
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-width: 500px; 
+    margin: 0 auto;
+    border: 2px red solid;
+  }
+  
+  svg {
+    width: 100%; 
+    height: 500;
+    max-width: 500px; 
+  }
+
+
+  .button-container {
+    text-align: center; 
+  }
+  
+  .button-container button {
+    margin: 0 10px;
+  }
+
+
+  .page-button {
+    width: 120px;
+    height: 40px; 
+    margin: 0 10px; 
+    font-size: 16px; 
+  }
+  
+
+
+#Rect {
+  width: 100px;
+  height: 100px;
+  background-color: blue;
+}
+      
+#Rect:hover {
+
+  cursor: url('/my-angular-app/src/assets/paintpointer.png'), auto;
+  cursor:grab
+}
+
+#circle:hover{
+
+  cursor:grab
+} 
